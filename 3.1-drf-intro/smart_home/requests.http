@@ -43,3 +43,19 @@ Content-Type: application/json
 # получение информации по датчику
 GET {{baseUrl}}/sensors/1/
 Content-Type: application/json
+
+
+###
+GET http://localhost:8000/comments/
+
+###
+
+POST http://localhost:8000/comments/
+Content-Type: application/json
+
+{
+  "user":1,
+  "text": "text from rest client"
+}
+
+
